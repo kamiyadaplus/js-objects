@@ -43,7 +43,7 @@ var dawg = {
     color: ['blue', 'black'],
     speak: 'AIIGHT'
 }
-console.log('My dawg ' + dawg.name + ' is ' + dawg.age + ' years old and likes to ' + dawg.speak + ' at strangers.');
+//console.log('My dawg ' + dawg.name + ' is ' + dawg.age + ' years old and likes to ' + dawg.speak + ' at strangers.');
 
 //An empty object
 
@@ -60,6 +60,16 @@ console.log('My dawg ' + dawg.name + ' is ' + dawg.age + ' years old and likes t
   Console.log the object.
 */
 
+var kicks = {
+};
+kicks.brand = 'Nike';
+kicks.color = 'white';
+kicks.size = 10.5;
+kicks.price = 90;
+kicks.buy = function(){
+    return 'Now imma cool kid!';
+}
+console.log(kicks);
 
 /* 
 
