@@ -100,6 +100,14 @@ plainBox.contents = ['pokemon cards', 'cassette tapes', 'pogs'];
     console.log the object
 */
 
+var stockCar = {
+    model: 'ford',
+    year: 2015,
+    automaticTransmission: false,
+    driver: null,
+    passengers: []
+};
+console.log(stockCar);
 
 /*
 
