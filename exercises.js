@@ -211,10 +211,10 @@ var arrayOfObjects = [{
 
   function printOrders(orders){
       for(var i = 0; i<orders.length; i++){
-      console.log('=====');
-      console.log('id: ' + orders[i].id);
-      console.log('date: ' + orders[i].date);
-      console.log('total: ' + orders[i].total);
+      //console.log('=====');
+      //console.log('id: ' + orders[i].id);
+     // console.log('date: ' + orders[i].date);
+      //console.log('total: ' + orders[i].total);
   }
 }
 
@@ -244,7 +244,7 @@ function objectAddition(object){
 }
 
 var sumObjResult = objectAddition(sumObj);
-console.log(sumObjResult);
+//console.log(sumObjResult);
     /*
 9. Print sum function and add as new key-value
    Declare a new function named printObj and a single parameter which will be the object from the challenge just above. 
@@ -261,7 +261,11 @@ console.log(sumObjResult);
         Invoke this function and pass in your object. Further test by changing the values of the object being passed in or 
         **create more** objects and invoke your function multiple times.
  */
+function printObj(object){
+    return object.a + ' + ' + object.b + ' = ' + object.result;
+}
 
+console.log(printObj(sumObj));
 
 /*
 10. Putting stuff in `plainBox`
